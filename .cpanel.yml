@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/siry2869/public_html/belajar-deploy
+    - export DEPLOYPATH=/home/siry2869/public_html/belajar-deploy/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
